@@ -232,11 +232,6 @@ img {
     padding: 120px 0;
 }
 
-/* .skils-section .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 
 .skils {
     display: flex;
@@ -813,4 +808,93 @@ img {
 .button-send:hover,
 .button-send:focus {
     background-color: #4D5AE5;
+}
+
+
+@media (max-width:320px) {
+    .container {
+        width: 100%;
+    }
+
+    .header-nav,
+    .contacts {
+        display: none;
+    }
+
+    .central {
+        padding-top: 72px;
+        padding-bottom: 72px;
+        box-shadow: none;
+    }
+
+    .central-title {
+        font-size: 36px;
+        max-width: 216px;
+        margin-bottom: 72px;
+    }
+
+    .box-skils {
+    display: none;
+    }
+
+    .skils {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .skils-section {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .skils-item {
+            width: 100%;
+            margin-bottom: 72px;
+    }
+
+    .skils-item:last-child {
+        margin-bottom: 0;
+    }
+    
+    .skils-link {
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+    }
+
+    .skils-text {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .team {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .team-item {
+        flex-direction: column;
+    }
+
+    .team-list {
+        width: 100%;
+    }
+
+    .portfolio {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .portfolio-item {
+        flex-direction: column;
+    }
+
+    .portfolio-content {
+        width: 100%;
+    }
+
+
+
+
+
 }
