@@ -12,12 +12,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
-    <!-- <header class="page-header">
+    <header class="page-header">
       <div class="container header-content">
         <nav class="navigation">
           <a class="logo" href="./index.html">
@@ -47,8 +47,84 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burgericon"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+      <!-- mobile menu  -->
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close">
+            <svg class="mobile-menu-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-menu-item">
+              <li class="mobile-menu-list">
+                <a class="link-current" href="./index.html">Studio</a>
+              </li>
+              <li class="mobile-menu-list">
+                <a class="link" href="">Portfolio</a>
+              </li>
+              <li class="mobile-menu-list">
+                <a class="link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mobile-menu-contact">
+            <ul class="mobile-menu-contact-item">
+              <li class="mobile-menu-contact-list">
+                <a class="link-tel" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mobile-menu-contact-list">
+                <a class="link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com
+                </a>
+              </li>
+            </ul>
+          </address>
+          <div>
+            <div class="social-content">
+              <ul class="mobile-menu-icon-list">
+                <li class="icon-border">
+                  <a class="link" href="">
+                    <svg class="social-icon" width="24" height="24">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="icon-border">
+                  <a class="link" href="">
+                    <svg class="social-icon" width="24" height="24">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="icon-border">
+                  <a class="link" href="">
+                    <svg class="social-icon" width="24" height="24">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="icon-border">
+                  <a class="link" href="">
+                    <svg class="social-icon" width="24" height="24">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
     <main>
       <!--Section 1-->
       <section class="central">
@@ -60,7 +136,7 @@
       <!--Section 2-->
       <section class="skils-section">
         <div class="container">
-          <h2 class="visually-hidden">skils</h2>
+          <!-- <h2 class="visually-hidden">skils</h2> -->
           <ul class="skils">
             <li class="skils-item">
               <div class="box-skils">
@@ -115,7 +191,7 @@
       </section>
 
       <!--Section 3-->
-      <section class="team">
+      <!-- <section class="team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-item">
@@ -289,9 +365,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!--Section 4-->
-      <section class="portfolio">
+      <!-- <section class="portfolio">
         <div class="container">
           <h2 class="section-title">Our Portfolio</h2>
           <ul class="portfolio-item">
@@ -411,7 +487,7 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
     <!-- Footer -->
     <!-- <footer class="footer">
@@ -481,7 +557,7 @@
       </div>
     </footer> -->
     <!-- modal window -->
-    <div class="modal-overlay">
+    <!-- <div class="modal-overlay">
       <div class="modal">
         <button class="button-close" type="button">
           <svg class="close-icon" width="8" height="8">
@@ -562,6 +638,6 @@
           <button class="button-send" type="button">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
