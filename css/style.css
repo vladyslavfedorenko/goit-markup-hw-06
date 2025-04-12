@@ -458,7 +458,6 @@ visually-hidden {
 
 .skils-section {
     padding: 96px 0;
-    display: flex;
 }
 
 .icon-files {
@@ -498,12 +497,16 @@ visually-hidden {
     width: 100%;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
+    
+    .skils-section .container {
+        display: flex;
+    }
+    
     .skils {
         flex-wrap: wrap;
-        
+        flex-basis: calc((100% - 24px) / 2);
     }
 
 
-        /* flex-basis: calc((100% - 24px) / 2); */
 }
